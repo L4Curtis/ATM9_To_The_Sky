@@ -10,7 +10,7 @@ RUN apt-get update && \
 
 RUN mkdir -p /tmp/feed-the-beast && \
     cd /tmp/feed-the-beast && \
-    wget -c https://www.curseforge.com/api/v1/mods/967745/files/5500129/download -O ATM9_To_The_Sky.zip && \
+    wget -c https://www.curseforge.com/api/v1/mods/967745/files/5500175/download -O ATM9_To_The_Sky.zip && \
     unzip ATM9_To_The_Sky.zip -d /tmp/feed-the-beast && \
     chmod -R 777 /tmp/feed-the-beast && \
     chown -R minecraft /tmp/feed-the-beast
