@@ -11,6 +11,8 @@ if [ ! -f "$forgejar" ]; then
         cp -rf /tmp/feed-the-beast/* .
 fi
 cp /startserver.sh /data/startserver.sh
+cp /default-server.properties /data/default-server.properties
+
 
 # Vérifier si le fichier startserver.sh existe
 if [ -f "/data/startserver.sh" ]; then
