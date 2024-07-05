@@ -43,13 +43,11 @@ To use the lastest version
 
 1. Command to use the image now
    ```bash
-   docker run -d --name ATM9ToTheSky -p 25565:25565 -e JVM_XMS=8G -e JVM_XMX=16G -e MOTD="ATM9 To The Sky" 
--v /your/path/DirectoryServer:/data l4curtis/minecraft-atm9-server:1.0.7
+   docker run -d --name ATM9ToTheSky -p 25565:25565 -e JVM_XMS=8G -e JVM_XMX=16G -e MOTD="ATM9 To The Sky" -v /your/path/DirectoryServer:/data l4curtis/minecraft-atm9-server:1.0.7
    ```
 2. For a specific version (e.g., 1.0.7)
    ```bash
-   docker run -d --name ATM9ToTheSky -p 25565:25565 -e JVM_XMS=8G -e JVM_XMX=16G -e MOTD="ATM9 To The Sky" 
--v /your/path/DirectoryServer:/data l4curtis/minecraft-atm9-server:1.0.7
+   docker run -d --name ATM9ToTheSky -p 25565:25565 -e JVM_XMS=8G -e JVM_XMX=16G -e MOTD="ATM9 To The Sky" -v /your/path/DirectoryServer:/data l4curtis/minecraft-atm9-server:1.0.7
    ```
 3. Change the port
    ```bash
