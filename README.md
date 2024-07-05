@@ -27,6 +27,9 @@ To use the lastest version
    ```
 3. Clone the repository
    ```bash
+   cd mkdir your/path/GitRepo
+   ```   
+   ```bash
    git clone https://github.com/L4Curtis/ATM9_To_The_Sky/tree/1.0.6
    ```
 4. Create or pull the Docker image
