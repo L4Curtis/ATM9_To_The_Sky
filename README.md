@@ -1,8 +1,8 @@
-# Server minecraft ATM9 to the Sky
+# Server minecraft ATM9 to the Sky (Updated to 1.0.7)
 
 ## Description
 
-Simply installation for your server minecraft AT9TTS
+Simply installation for your server minecraft AT9TTS,
 Server needs to be with persistant data
 
 ## Table des Matières
@@ -18,30 +18,29 @@ To use the lastest version
    ```bash
    mkdir your/path
    ```
-2. Clone the repository :
+2. Clone the repository
    ```bash
-   git clone https://github.com/L4Curtis/ATM9_To_The_Sky
+   git clone https://github.com/L4Curtis/ATM9_To_The_Sky/tree/1.0.7
    ```
-3. Create or pull the Docker image :
-   (Not available for the moment)
+3. Create or pull the Docker image
    Create :
    ```bash
-   docker build -t l4curtis/minecraft-atm9-server:1.0.6 .
+   docker build -t l4curtis/minecraft-atm9-server:1.0.7 .
    ```
-   Pull the lastest version :
+   Pull the lastest version
    ```bash
-   docker pull l4curtis/minecraft-atm9-server:1.0.6
+   docker pull l4curtis/minecraft-atm9-server:1.0.7
    ```
 
 ## Usage
 
 1. Command to use the image now
    ```bash
-   docker run -d -p 25565:25565 -e JVM_XMS=8G -e JVM_XMX=16G -e MOTD="ATM9 To The Sky" l4curtis/minecraft-atm9-server:tagname
+   docker run -d --name ATM9ToTheSky -p 25565:25565 -e JVM_XMS=8G -e JVM_XMX=16G -e MOTD="ATM9 To The Sky" l4curtis/minecraft-atm9-server:1.0.7
    ```
-2. For a specific version (e.g., 1.0.6)
+2. For a specific version (e.g., 1.0.7)
    ```bash
-   docker run -d -p 25565:25565 -e JVM_XMS=8G -e JVM_XMX=16G -e MOTD="ATM9 To The Sky" l4curtis/minecraft-atm9-server:1.0.6
+   docker run -d --name ATM9ToTheSky -p 25565:25565 -e JVM_XMS=8G -e JVM_XMX=16G -e MOTD="ATM9 To The Sky" l4curtis/minecraft-atm9-server:1.0.7
    ```
 3. Change the port
    ```bash
