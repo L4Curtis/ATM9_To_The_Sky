@@ -27,22 +27,6 @@ echo "Continuer avec le reste du script start.sh..."
 
 echo eula=true > /data/eula.txt
 
-# Check if the environment variables are set
-# echo "JVM_XMS=${JVM_XMS}"
-# echo "JVM_XMX=${JVM_XMX}"
-
-#if [[ -n "${JVM_XMS:-}" ]]; then
-#    JVM_XMS="-Xms${JVM_XMS}"
-#else
-#    JVM_XMS=""
-#fi
-
-#if [[ -n "${JVM_XMX:-}" ]]; then
-#    JVM_XMX="-Xmx${JVM_XMX}"
-#else
-#    JVM_XMX=""
-#fi
-
 # Debug output to ensure the variables are set correctly
 # echo "Setting JVM_XMS to: ${JVM_XMS}"
 # echo "Setting JVM_XMX to: ${JVM_XMX}"
