@@ -1,4 +1,4 @@
-# Server minecraft ATM9 to the Sky (Updated to 1.0.7)
+# Server minecraft ATM9 to the Sky (Updated to 1.0.8)
 
 ## Description
 
@@ -30,27 +30,27 @@ To use the lastest version
    cd mkdir your/path/GitRepo
    ```
    ```bash
-   git clone https://github.com/L4Curtis/ATM9_To_The_Sky/tree/1.0.7
+   git clone https://github.com/L4Curtis/ATM9_To_The_Sky/tree/1.0.8
    ```
 4. Create or pull the Docker image
    Create :
    ```bash
-   docker build -t l4curtis/minecraft-atm9-server:1.0.7 .
+   docker build -t l4curtis/minecraft-atm9-server:1.0.8 .
    ```
    Pull the lastest version
    ```bash
-   docker pull l4curtis/minecraft-atm9-server:1.0.7
+   docker pull l4curtis/minecraft-atm9-server:1.0.8
    ```
 
 ## Usage
 
 1. Command to use the image now
    ```bash
-   docker run -d --name ATM9ToTheSky -p 25565:25565 -e JVM_XMS=8G -e JVM_XMX=16G -e MOTD="ATM9 To The Sky" -v /your/path/DirectoryServer:/data l4curtis/minecraft-atm9-server:1.0.7
+   docker run -d --name ATM9ToTheSky -p 25565:25565 -e JVM_XMS=8G -e JVM_XMX=16G -e MOTD="ATM9 To The Sky" -v /your/path/DirectoryServer:/data l4curtis/minecraft-atm9-server:1.0.8
    ```
-2. For a specific version (e.g., 1.0.7)
+2. For a specific version (e.g., 1.0.8)
    ```bash
-   docker run -d --name ATM9ToTheSky -p 25565:25565 -e JVM_XMS=8G -e JVM_XMX=16G -e MOTD="ATM9 To The Sky" -v /your/path/DirectoryServer:/data l4curtis/minecraft-atm9-server:1.0.7
+   docker run -d --name ATM9ToTheSky -p 25565:25565 -e JVM_XMS=8G -e JVM_XMX=16G -e MOTD="ATM9 To The Sky" -v /your/path/DirectoryServer:/data l4curtis/minecraft-atm9-server:1.0.8
    ```
 3. Change the port
    ```bash
