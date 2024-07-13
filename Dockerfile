@@ -32,7 +32,7 @@ WORKDIR /data
 EXPOSE 25565
 
 # Définir les variables d'environnement et le point d'entrée
-ENV MOTD "A Minecraft (ATM9 To The Sky 1.0.6) Server Powered by Docker"
+ENV MOTD "A Minecraft (ATM9 To The Sky 1.0.8) Server Powered by Docker"
 ENV LEVEL skyblockbuilder\:skyblock
 ENV JVM_XMS="8096m"
 ENV JVM_XMX="8096m"
