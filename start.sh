@@ -8,7 +8,7 @@ forgejar="/data/forge-1.20.1-$FORGE_VERSION-installer.jar"
 cd /data
 
 if [ ! -f "$forgejar" ]; then
-        cp -rf /tmp/feed-the-beast/* .
+        cp -rf /tmp/feed-the-beast/1.0.8/* .
 fi
 cp /startserver.sh /data/startserver.sh
 cp /default-server.properties /data/default-server.properties
